@@ -1,0 +1,40 @@
+Notes 
+// game the system !!!:)
+- Vivekeremotetiger.com
+- 6 yrs marc 2016 jan - mar 2010 cont. no break
+-  Ui 6 years Most recent project important - 
+- 4-5 pages
+- Do no copy resumes!!! 
+- Summary - Skills projects etc.
+- Projects
+-Last Education  Highest Degree Name of School Location
+- indeed ,linked in check resumes check projects / download apps
+2 projects first 3 and 3 projects 
+
+- Walmart
+-Bloomingdales
+- HLN
+-Toyota
+-CVS Health
+
+var superBlinders = [ ["Firestorm", 4000], ["Solar Death Ray", 6000], ["Supernova", 12000] ];
+
+var lighthouseRock = {
+  gateClosed: true,
+  weaponBulbs: superBlinders,
+  capacity: 30,
+  secretPassageTo: "Underwater Outpost",
+  numRangers: 3,
+  ranger1: {name: "Nick Walsh", skillz: "magnification burn", station: 2},
+  ranger2: {name: "Drew Barontini", skillz: "uppercut launch", station: 3},
+  ranger3: {name: "Christine Wong", skillz: "bomb defusing", station: 1},
+  addRanger:function (this, name, skillz, station) {
+  this.numRangers++;
+  this["ranger" + this.numRangers] = {
+    name: name,
+    skillz: skillz,
+    station: station
+  };
+}
+
+};
